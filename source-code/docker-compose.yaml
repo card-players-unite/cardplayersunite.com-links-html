@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+
+    card-players-united-link-portal:
+
+        container_name: card-players-united-link-portal
+
+        image: softwareshinobi/card-players-united-link-portal:latest
+
+        restart: "always"
+
+        ports:
+
+            - "23081:80"
+                           
+        networks:
+        
+            - network-card-players-united-link-portal
+                   
+networks:
+
+    network-card-players-united-link-portal:
+    
