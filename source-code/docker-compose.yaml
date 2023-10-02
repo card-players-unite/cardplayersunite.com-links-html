@@ -2,11 +2,11 @@ version: '3'
 
 services:
 
-    card-players-united-link-portal:
+    card-players-unite-links:
 
-        container_name: card-players-united-link-portal
+        container_name: card-players-unite-links
 
-        image: softwareshinobi/card-players-united-link-portal:latest
+        image: softwareshinobi/card-players-unite-links:latest
 
         restart: "always"
 
@@ -16,9 +16,9 @@ services:
                            
         networks:
         
-            - network-card-players-united-link-portal
+            - network-card-players-unite-links
                    
 networks:
 
-    network-card-players-united-link-portal:
+    network-card-players-unite-links:
     

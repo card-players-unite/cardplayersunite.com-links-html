@@ -1,6 +1,6 @@
 
 repositoryUser="softwareshinobi"
 
-repositoryName="card-players-united-link-portal"
+repositoryName="card-players-unite-links"
 
 repositoryTag="latest"
